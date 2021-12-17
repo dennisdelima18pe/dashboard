@@ -1,0 +1,10 @@
+.topBar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:var(--topnav-height);
+}
+.isSeach{
+    padding:0.6rem;
+    border-radius:10px;
+}

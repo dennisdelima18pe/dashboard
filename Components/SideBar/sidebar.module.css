@@ -1,9 +1,12 @@
 #logo{
+    margin-bottom:24px;
     width:var(--sidebar-width);
     min-width: 180px;
-    margin-bottom:24px;
 }
 #sidebar{
+
+    width:var(--sidebar-width);
+    min-width: 180px;
     position:fixed;
     height:100vh;
     padding:2rem;
@@ -12,8 +15,9 @@
 .sidebar_item{
     padding:1rem;
     color:var(--txt-color);
-    font-size:1.1rem;
     margin-bottom:8px;
+    display:flex;
+    align-items:center;
 }
 
 .sidebar_item:hover{
@@ -29,4 +33,7 @@
     background-color:var(--main-color);
     cursor:pointer;
     color:var(--txt-white);
+}
+.sidebar_item > i {
+    margin-right:4px;
 }

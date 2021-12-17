@@ -19,8 +19,10 @@ const SibeBarItem:React.FC<sideBarProps> = ({title,icon,router,activeRouter})=>{
 
     return (
             <div className={`${sidebarStyle.sidebar_item} ${active}`}>
-                <i className={icon}></i>
-                {title}    
+                  <i className={icon} />
+                <span>
+                      {title}    
+                </span>
              </div>
     )
 }

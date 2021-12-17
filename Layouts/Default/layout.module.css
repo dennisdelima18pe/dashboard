@@ -1,0 +1,11 @@
+.layout{
+    color:var(--txt-color);
+}
+.layout__content {
+  margin-left:calc(var(--sidebar-width) + 4rem);
+  padding:2rem;
+}
+
+.layout__content_main {
+    
+}
