@@ -15,7 +15,7 @@
 .sidebar_item{
     padding:1rem;
     color:var(--txt-color);
-    margin-bottom:8px;
+    margin-bottom:4px;
     display:flex;
     align-items:center;
 }
@@ -36,4 +36,15 @@
 }
 .sidebar_item > i {
     margin-right:4px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+#sidebar{
+
+    display:none;
+
+}
+
 }

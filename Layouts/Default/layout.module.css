@@ -9,3 +9,16 @@
 .layout__content_main {
     
 }
+
+
+@media only screen and (max-width: 768px){
+
+.layout__content{
+
+  margin-left: 0px;
+  padding: 0px;
+
+
+}
+
+}

@@ -1,10 +1,93 @@
 .topBar{
+    padding:0px 24px;
     display:flex;
     justify-content:space-between;
     align-items:center;
     height:var(--topnav-height);
 }
-.isSeach{
-    padding:0.6rem;
-    border-radius:10px;
+.topBar_search{
+    display:flex;
+    align-items:center;
+    position: relative;
+    height:40px;
+    
+}
+.topBar_search > input{
+    border-color:var(--txt-color);
+    border-radius:5px;
+    width:100%;
+    height:100%;
+}
+.topBar_search > i{
+    position:absolute;
+    right:10px;
+    color:var(--txt-color);
+}
+
+.buttonToggle{
+    font-size:28px;
+    position:relative;
+    display:flex;
+    cursor:pointer;
+    margin-right:16px;
+}
+.dropdown_itens{
+    display:flex;
+    align-items:center;
+    margin-top:32px;
+    cursor: pointer;
+}
+.dropdown_itens > i{
+    margin-right:16px;
+    font-size:36px;
+}
+.dropdown_content{
+    position:absolute;
+    right:8px;
+    box-shadow:var(--box-shadow);
+    padding:16px;
+    max-width:14rem;
+}
+.dropdown_content_none{
+
+    display:none;
+
+}
+.numberNotification{
+    width:18px; 
+    height:18px;
+    top:-8px;
+    left:18px;
+    font-size:.9rem;
+    text-align:center;
+    color:var(--txt-white);
+    background-color:var(--main-color); 
+    border-radius:50%; 
+    position: absolute;
+}
+
+.img {
+    width:36px;
+    height:36px;
+    border-radius:50%;
+}
+.dropdwon{
+    display:flex;
+    align-items:center;
+}
+@media only screen and (max-width: 768px) {
+.topBar{
+    display: block;
+    position:absolute;
+    top:12px;
+    right:38px;
+}
+.topBar_search > input{
+    display:none;
+}
+.topBar_search > i{
+    display:none;
+}
+
+
 }
